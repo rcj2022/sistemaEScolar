@@ -54,7 +54,10 @@ include('config/conexao.php');
         </div>
       </div>
 
-     
+      <div class="checkbox mb-3">
+        <label>
+       
+        </label>
       </div>
       <button class="w-100 btn btn-lg btn-primary" type="submit">Acessar</button>
       <p class="mt-5 mb-1 text-muted">&copy; 2021 - <?php echo date('Y') ?></p>

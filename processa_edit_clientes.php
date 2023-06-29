@@ -37,7 +37,7 @@ if($resposta){
     //$_SESSION['success'] = "<div class='danger' role='alert' id='sumirDiv'><center>Área Restrita - Realize Login</center></div>";
     $_SESSION['success'] = "<div class='alert alert-success alert-dismissible fade show text text-center mb-0' role='alert'>
                                 
-                                <strong> ALUNO EDITADO COM SUCESSO &nbsp; <i class='far fa-smile-wink fa-2x'></i> </strong> 
+                                <strong> CLIENTE EDITADO COM SUCESSO &nbsp; <i class='far fa-smile-wink fa-2x'></i> </strong> 
                                     <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
                                 <span aria-hidden='true'>&times;</span>
                                 </button>

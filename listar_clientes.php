@@ -24,7 +24,7 @@ if (isset($_SESSION['success'])) {
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-4 bg-warning justify-content-between p-3">
-            LISTA DE ALUNOS CADASTRADOS
+            LISTA DE CLIENTES CADASTRADOS
         </div>
         <div class="col-md-6 bg-warning justify-content-between p-3">
             <div class="form-label-group">
@@ -34,7 +34,7 @@ if (isset($_SESSION['success'])) {
             </div>
         </div>
         <div class="col-md-2 bg-warning  justify-content-between p-3 d-flex">
-            <button type="button" class="btn btn-sm btn-dark " data-backdrop="static" data-keyboard="false" data-toggle="modal" data-target="#cadCliente">NOVO ALUNO</button>
+            <button type="button" class="btn btn-sm btn-dark " data-backdrop="static" data-keyboard="false" data-toggle="modal" data-target="#cadCliente">NOVO CLIENTE</button>
         </div>
     </div>
 </div>
@@ -372,7 +372,7 @@ if (isset($_SESSION['success'])) {
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header ">
-                <h5 class="modal-title" id="exampleModalLabel">CADASTRO DE ALUNOS</h5>
+                <h5 class="modal-title" id="exampleModalLabel">CADASTRO DE CLIENTES</h5>
 
 
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -601,10 +601,10 @@ if (isset($_SESSION['success'])) {
 
                             <label for="recipient-situacao" class="col-form-label">Situação</label>
                             <select class="form-control form-select-lg mb-5 select2" name="situacao" id="recipient-situacao" aria-label=".form-select-lg example" disabled>
-                                <option value="Pendente">Ativo</option>
+                                <option value="Pendente">Pendente</option>
+                                <option value="Ativo">Ativo</option>
                                 <option value="Inativo">Inativo</option>
-                                <option value="Ativo">Falecido</option>
-                                <option value="Cancelado">Abandonou</option>
+                                <option value="Cancelado">Cancelado</option>
 
                             </select>
 
